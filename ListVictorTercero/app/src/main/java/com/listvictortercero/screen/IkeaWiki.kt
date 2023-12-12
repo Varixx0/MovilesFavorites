@@ -1,3 +1,7 @@
+/*
+    @Author Victor Tercero
+ */
+
 package com.listvictortercero.screen
 
 import androidx.compose.foundation.background
@@ -27,6 +31,7 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
@@ -71,7 +76,7 @@ fun IkeaWiki(
                 }
 
                              } , colors = ButtonDefaults.buttonColors(MaterialTheme.colorScheme.secondary)) {
-                Icon(imageVector = Icons.Default.Star, contentDescription ="", tint = favColor)
+                Icon(imageVector = Icons.Default.Star, contentDescription ="", tint = Color.Black)
             }
         }
         Spacer(modifier = Modifier.height(20.dp))
